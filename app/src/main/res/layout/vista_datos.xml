@@ -5,9 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     >
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listaproductos" />
+
     <TextView
         android:id="@+id/txtId"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Id producto"
         android:textSize="20dp"
@@ -15,7 +22,7 @@
 
     <TextView
         android:id="@+id/txtDescripcion"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="descripcion"
         android:textSize="20dp"
@@ -31,7 +38,7 @@
 
     <TextView
         android:id="@+id/txtMayoreo"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="precio mayoreo"
         android:textSize="20dp"
