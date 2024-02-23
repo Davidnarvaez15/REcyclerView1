@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             dtproductos("14", "cloro", "17", "15")
         )
         ListaDatos.add(
-            dtproductos(:"15", "papel higienico", "25", "20")
+            dtproductos("15", "papel higienico", "25", "20")
         )
         ListaDatos.add(
             dtproductos("16", "queso amarillo", "18", "16")
